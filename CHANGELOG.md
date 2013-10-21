@@ -1,3 +1,6 @@
+## v1.3.1:
+  * update default version of node to 0.10.21 - and npm - v1.3.11 ([@GeBeater][])
+
 ## v1.3.0
   * update default versions to the latest: node - v0.10.15 and npm - v1.3.5
   * default to package installation of nodejs on smartos ([@wanelo-pair][])
