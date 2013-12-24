@@ -24,12 +24,12 @@ case node['platform_family']
     default['nodejs']['install_method'] = 'source'
 end
 
-default['nodejs']['version'] = '0.10.21'
-default['nodejs']['checksum'] = '7c125bf22c1756064f2a68310d4822f77c8134ce178b2faa6155671a8124140d'
-default['nodejs']['checksum_linux_x64'] = '2791efef0a1e9a9231b937e55e5b783146e23291bca59a65092f8340eb7c87c8'
-default['nodejs']['checksum_linux_x86'] = 'c0ed641961a5c5a4602b1316c3d3ed12b3ac330cc18abf3fb980f0b897b5b96b'
+default['nodejs']['version'] = '0.10.24'
+default['nodejs']['checksum'] = '610cd733186842cb7f554336d6851a61b2d3d956050d62e49fa359a47640377a'
+default['nodejs']['checksum_linux_x64'] = '6ef93f4a5b53cdd4471786dfc488ba9977cb3944285ed233f70c508b50f0cb5f'
+default['nodejs']['checksum_linux_x86'] = 'fb6487e72d953451d55e28319c446151c1812ed21919168b82ab1664088ecf46'
 default['nodejs']['dir'] = '/usr/local'
-default['nodejs']['npm'] = '1.3.11'
+default['nodejs']['npm'] = '1.3.21'
 default['nodejs']['src_url'] = "http://nodejs.org/dist"
 default['nodejs']['make_threads'] = node['cpu'] ? node['cpu']['total'].to_i : 2
 default['nodejs']['check_sha'] = true
